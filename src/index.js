@@ -55,7 +55,7 @@ function getWeatherData (event){
     let cityDisplay = document.querySelector("#current-city");
     cityDisplay.innerHTML = cityInput.value;
 
-    let apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${cityInput.value}&units=${unit}&appid=${apiKey}`;
+    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${cityInput.value}&units=${unit}&appid=${apiKey}`;
     console.log(apiUrl);
 
     axios.get(apiUrl).then(showSearchedTemperature);
