@@ -20,6 +20,10 @@ button {
   margin-top: -6px;
 }
 
+small {
+  text-align: right;
+}
+
 .container {
   margin: 0 auto;
   margin-top: 10px;
