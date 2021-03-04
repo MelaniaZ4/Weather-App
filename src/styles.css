@@ -1,0 +1,102 @@
+hr {
+  border: 2px solid #632f6d;
+  border-radius: 5px;
+}
+
+img {
+  width: 70%;
+}
+
+div {
+  font-family: "PT Serif", serif;
+  font-family: "Yusei Magic", sans-serif;
+  font-size: 20px;
+}
+
+button {
+  display: inline;
+  margin: 0 auto;
+  margin-left: 20px;
+  margin-top: -6px;
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 50px, 100px, 100px, 100px;
+  border: 1.5px solid #73387e;
+  border-radius: 5px;
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  max-width: 70%;
+}
+
+.cityNameInput {
+  display: inline;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-left: 5px;
+  background-color: #fff1eb;
+  border-color: #73387e;
+  border-radius: 5px;
+  color: #632f6d;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.currentCity {
+  color: #212121;
+  text-align: center;
+  font-weight: 700;
+  font-size: 26px;
+  padding-bottom: 20px;
+}
+
+#local-temperature-button {
+  position: relative;
+  top: 70px;
+  left: 20px;
+}
+
+#current-temperature {
+  font-size: 50px;
+  position: relative;
+  bottom: 30px;
+}
+
+.units {
+  position: relative;
+  bottom: 90px;
+  left: 50px;
+}
+
+#celsius {
+  cursor: pointer;
+}
+
+#fahrenheit {
+  cursor: pointer;
+}
+
+.celsius-fahrenheit {
+  text-decoration: none;
+  font-size: 15px;
+  position: relative;
+  bottom: 30px;
+}
+
+.weatherDisplay {
+  border: 1px solid;
+  padding: 50px 50px 50px 50px;
+  margin: 20px 20px 40px 20px;
+  border-color: #73387e;
+  border-radius: 5px;
+  color: #73387e;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.row {
+  padding: 5px;
+}
+
+.forecast {
+  border: #73387e;
+  color: #73387e;
+}
