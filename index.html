@@ -15,96 +15,95 @@
 
 <body>
     <div class="container">
-        <form id="search-city">
-            <input type="text" class="cityNameInput" id="city-input" placeholder="Type city name" autofocus>
-            <input type="submit" value="Search" class="btn btn-primary">
-        </form>
-        <button class="btn btn-success" value="Local" id="local-temperature-button">Local Weather</button>
+        <div class="weather-app">
+            <form id="search-city">
+                <input type="text" class="cityNameInput" id="city-input" placeholder="Type city name" autofocus>
+                <input type="submit" value="Search" class="btn btn-primary">
+            </form>
+            <button class="btn btn-success" value="Local" id="local-temperature-button">Local Weather</button>
 
-        <div class="weatherDisplay">
+            <div class="weatherDisplay">
 
-            <div class="CurrentCity">
-                <span id="current-city"> </span>
-                |
-                <span id="current-time"> </span>
-            </div>
+                <div class="CurrentCity">
+                    <span id="current-city"> </span>
+                    |
+                    <span id="current-time"> </span>
+                </div>
 
-            <div class="row">
-                <div class="col-5">
-                    <strong>Today</strong> | 18/01
-                </div>
-                <div class="col-4">
-                    <strong>Mostly Sunny</strong> 🌤
-                </div>
-                <div class="col-3" id="temperature-display">
-                    <strong id="current-temperature">19</strong>
-                    <div class="units">
-                        <a id="celsius">°C</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-5">
-                    image
-                </div>
-                <div class="col-4">
-                    0mm <br />
-                    Precipit.: 0% <br />
-                    Wind: 21 km/h <br />
-                    Humidity: 85% <br />
-                </div>
-            </div>
-            <p>
-                # Don't let the clouds wear you down 😀
-            </p>
-            <div>
-                <hr>
-            </div>
-
-            <div class="forecast">
                 <div class="row">
                     <div class="col-5">
-                        19/01 | Tuesday
+                        <strong>Today</strong> | 18/01
                     </div>
                     <div class="col-4">
-                        Cloudy ☁
+                        <strong>Mostly Sunny</strong> 🌤
                     </div>
-                    <div class="col-3">
-                        11°C/21°C
-                    </div>
-                    <div class="col-5">
-                        20/01 | Wednesday
-                    </div>
-                    <div class="col-4">
-                        Sunny ☀
-                    </div>
-                    <div class="col-3">
-                        10°C/24°C
-                    </div>
-                    <div class="col-5">
-                        21/01 | Thursday
-                    </div>
-                    <div class="col-4">
-                        Sunny ☀
-                    </div>
-                    <div class="col-3">
-                        14°C/25°C
-                    </div>
-                    <div class="col-5">
-                        22/01 | Friday
-                    </div>
-                    <div class="col-4">
-                        Thunderstorms ⛈
-                    </div>
-                    <div class="col-3">
-                        9°C /20°C
+                    <div class="col-3" id="temperature-display">
+                        <strong id="current-temperature">19</strong>
+                        <div class="units">
+                            <a id="celsius">°C</a>
+                        </div>
                     </div>
                 </div>
 
+                <div class="row">
+                    <div class="col-5">
+                        image
+                    </div>
+                    <div class="col-4">
+                        0mm <br />
+                        Precipit.: 0% <br />
+                        Wind: 21 km/h <br />
+                        Humidity: 85% <br />
+                    </div>
+                </div>
+                <p>
+                    # Don't let the clouds wear you down 😀
+                </p>
+                <div>
+                    <hr>
+                </div>
 
+                <div class="forecast">
+                    <div class="row">
+                        <div class="col-5">
+                            19/01 | Tuesday
+                        </div>
+                        <div class="col-4">
+                            Cloudy ☁
+                        </div>
+                        <div class="col-3">
+                            11°C/21°C
+                        </div>
+                        <div class="col-5">
+                            20/01 | Wednesday
+                        </div>
+                        <div class="col-4">
+                            Sunny ☀
+                        </div>
+                        <div class="col-3">
+                            10°C/24°C
+                        </div>
+                        <div class="col-5">
+                            21/01 | Thursday
+                        </div>
+                        <div class="col-4">
+                            Sunny ☀
+                        </div>
+                        <div class="col-3">
+                            14°C/25°C
+                        </div>
+                        <div class="col-5">
+                            22/01 | Friday
+                        </div>
+                        <div class="col-4">
+                            Thunderstorms ⛈
+                        </div>
+                        <div class="col-3">
+                            9°C /20°C
+                        </div>
+                    </div>
+                </div>
             </div>
-           
         </div> 
         <small>
         <a href="https://github.com/MelaniaZ4/Weather-App.git" id="source">Open-source Code</a>
